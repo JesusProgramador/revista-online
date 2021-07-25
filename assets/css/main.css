@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 100%;
+  }
+}
+/************************
+******** CONTAINER ******
+*************************/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/************************
+********** ROW **********
+*************************/
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/************************
+******** COLUMNS ********
+*************************/
+.col-xs-12 {
+  grid-column: span 12;
+}
+
+.col-xs-11 {
+  grid-column: span 11;
+}
+
+.col-xs-10 {
+  grid-column: span 10;
+}
+
+.col-xs-9 {
+  grid-column: span 9;
+}
+
+.col-xs-8 {
+  grid-column: span 8;
+}
+
+.col-xs-7 {
+  grid-column: span 7;
+}
+
+.col-xs-6 {
+  grid-column: span 6;
+}
+
+.col-xs-5 {
+  grid-column: span 5;
+}
+
+.col-xs-4 {
+  grid-column: span 4;
+}
+
+.col-xs-3 {
+  grid-column: span 3;
+}
+
+.col-xs-2 {
+  grid-column: span 2;
+}
+
+.col-xs-1 {
+  grid-column: span 1;
+}
+
+@media (min-width: 768px) {
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+
+  .col-md-11 {
+    grid-column: span 11;
+  }
+
+  .col-md-10 {
+    grid-column: span 10;
+  }
+
+  .col-md-9 {
+    grid-column: span 9;
+  }
+
+  .col-md-8 {
+    grid-column: span 8;
+  }
+
+  .col-md-7 {
+    grid-column: span 7;
+  }
+
+  .col-md-6 {
+    grid-column: span 6;
+  }
+
+  .col-md-5 {
+    grid-column: span 5;
+  }
+
+  .col-md-4 {
+    grid-column: span 4;
+  }
+
+  .col-md-3 {
+    grid-column: span 3;
+  }
+
+  .col-md-2 {
+    grid-column: span 2;
+  }
+
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #54b8bb;
+}
+
+.navbar__title {
+  font-family: "Old Standard TT", serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #003638;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+}
+
+.navegation__item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 0.5em;
+}
+
+.input__navegation {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar__title {
+    font-size: 1.5rem;
+  }
+
+  .item--display {
+    display: none;
+  }
+
+  .navegation__item {
+    font-size: 0.75rem;
+    margin-right: 0.1em;
+  }
+
+  .input__navegation {
+    padding: 0.3em;
+    width: 60%;
+  }
+}
+.main {
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.card__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card__title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  color: #055052;
+  font-size: 1.25rem;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+}
+
+.card__text {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.aside {
+  letter-spacing: 1px;
+  color: #003638;
+}
+
+.us__section,
+.tags,
+.featured__section {
+  padding: 10px;
+}
+
+.us__title {
+  margin-bottom: 1rem;
+}
+
+.tags__items {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tag__item {
+  font-size: 0.75rem;
+  font-weight: 700;
+  list-style: none;
+  padding: 0.3rem 0.4rem;
+  margin-right: 0.5rem;
+  background-color: #54b8bb;
+}
+
+.featured__title {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .main {
+    grid-template-columns: 100%;
+  }
+
+  .card__container {
+    padding: 0;
+  }
+
+  .aside {
+    display: none;
+  }
+}
+.newsletter {
+  width: 100%;
+  padding: 3rem;
+  text-align: center;
+  background-color: #f3f2c9;
+}
+
+.newsletter__title,
+.newsletter__text {
+  margin: 1rem 0;
+}
+
+.newsletter__input {
+  border: none;
+  width: 20%;
+}
+
+.newsletter__btn {
+  background-color: #055052;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .newsletter {
+    padding: 2rem;
+  }
+
+  .newsletter__title,
+.newsletter__text {
+    width: 100%;
+    font-size: 1.25rem;
+  }
+
+  .newsletter__input {
+    width: 60%;
+  }
+
+  .newsletter__btn {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
